@@ -6,10 +6,10 @@ public class AnimalPicker
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which animal would you like to see: a dog or a cat");
         String animal = scanner.next();
-        if(animal == "dog"){
+        if(animal.equalsIgnoreCase("dog")){
             System.out.println("DOG ASCII ART HERE");
         }
-        else if (animal == "cat"){
+        else if (animal.equalsIgnoreCase("cat")){
             System.out.println("CAT ASCII ART HERE");
         }
     }
