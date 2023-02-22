@@ -8,9 +8,10 @@ public class AnimalPicker
         String animal = scanner.next();
         if(animal == "dog"){
             System.out.println("DOG ASCII ART HERE");
-        }
-        else if (animal == "cat"){
+        }else if (animal == "cat"){
             System.out.println("CAT ASCII ART HERE");
+        }else{
+            System.out.println("Invalid Input");
         }
     }
 }
