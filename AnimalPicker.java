@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class AnimalPicker
 {
-    public static void main(String args)
+    public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which animal would you like to see: a dog or a cat");
