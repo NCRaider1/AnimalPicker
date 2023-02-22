@@ -4,16 +4,25 @@ public class AnimalPicker
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
+        boolean statement = true;
+        while(statement)
+        {                                                    
         System.out.println("Which animal would you like to see: a dog or a cat");
-        String animal = scanner.next();
-        while (animal != "dog" || animal != "cat"){
-        System.out.println("Invalid Input");
-        animal = scanner.next();
-       }
-        if(animal == "dog"){
+        String animal = scanner.next();                                                                  
+        if (animal.equalsIgnoreCase("dog"))
+        {
             System.out.println("DOG ASCII ART HERE");
-        }else if (animal == "cat"){
+            break;
+        }
+        else if (animal.equalsIgnoreCase("cat"))
+        {
             System.out.println("CAT ASCII ART HERE");
+            break;
+        }
+        else 
+        {
+            System.out.println("Invalid Input");                                                
+        }
         }
     }
 }
