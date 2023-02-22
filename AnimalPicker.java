@@ -12,12 +12,12 @@ public class AnimalPicker
         if (animal.equalsIgnoreCase("dog"))
         {
             System.out.println("DOG ASCII ART HERE");
-            break;
+            statement = false;
         }
         else if (animal.equalsIgnoreCase("cat"))
         {
             System.out.println("CAT ASCII ART HERE");
-            break;
+            statement = false;
         }
         else 
         {
