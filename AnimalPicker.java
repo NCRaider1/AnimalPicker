@@ -6,7 +6,8 @@ public class AnimalPicker
         Scanner scanner = new Scanner(System.in);
         boolean statement = true;
         while(statement)
-        {                                                    
+        {       
+            //Andrew was here                                            
         System.out.println("Which animal would you like to see: a dog, a cat, fish, or batman");
         String animal = scanner.next();                                                                  
         if (animal.equalsIgnoreCase("dog"))
