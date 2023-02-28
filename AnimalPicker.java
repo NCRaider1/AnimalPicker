@@ -7,7 +7,7 @@ public class AnimalPicker
         boolean statement = true;
         while(statement)
         {                                                    
-        System.out.println("Which animal would you like to see: a dog, a cat, or a fish");
+        System.out.println("Which animal would you like to see: a dog, a cat, fish, or batman");
         String animal = scanner.next();                                                                  
         if (animal.equalsIgnoreCase("dog"))
         {
@@ -22,6 +22,11 @@ public class AnimalPicker
         else if (animal.equalsIgnoreCase("fish"))
         {
             System.out.println("          /\"*._         _\n      .-*\'`    `*-.._.-\'/\n    < * ))     ,       ( \n      `*-._`._(__.--*\"`.\\");
+            statement = false;                                              
+        }
+        else if (animal.equalsIgnoreCase("batman"))
+        {
+            System.out.println("         _____       _____\n     ,-\'``_.-\'` \\   / `\'-._``\'-.\n   ,`   .\'      |`-\'|      `.   `.\n ,`    (    /\\  |   |  /\\    )    `.\n/       `--\'  `-\'   `-\'  `--\'       \\\n|                                   |\n\\      .--.  ,--.   ,--.  ,--.      /\n `.   (    \\/ lt.\\ /    \\/    )   ,\'\n   `._ `--.___    V    ___.--\' _,\'\n      `\'----\'`         `\'----\'` ");
             statement = false;                                              
         }
         else
